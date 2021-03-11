@@ -1,23 +1,12 @@
 {
-  "name": "data-storage-api-node",
+  "name": "server-part",
   "version": "1.0.0",
-  "private": true,
-  "description": "A coding exercise for Node.js candidates at GitHub",
-  "repository": "https://github.com/github-interviews/data-storage-api-node",
+  "description": "The server part of the sample full-stack app",
   "main": "server.js",
-  "scripts": {
-    "test": "jest test.js",
-    "test-watch": "jest --watch --notify --notifyMode=change test.js"
-  },
   "dependencies": {
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "mysql": "^2.18.1",
-    "object-hash": "^2.1.1"
-  },
-  "devDependencies": {
-    "jest": "^25.1.0",
-    "supertest": "^4.0.2"
+    "mysql": "^2.18.1"
   }
 }
