@@ -7,8 +7,8 @@ const port = 8080;
 const mysqlParams = {
   database: 'bookmark',
   host: 'localhost',
-  password: 'sugi2',
-  user: 'sugi2',
+  password: '<ur user password>',
+  user: '<ur username>',
 };
 
 const whitelist = ['http://localhost:3000', 'http://localhost:3000/']
