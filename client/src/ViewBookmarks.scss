@@ -1,0 +1,23 @@
+.bookmarks {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.bookmark {
+  margin-bottom: 20px;
+
+  &__cta {
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+    color: #00458b;
+    padding: 0;
+    margin: 0;
+
+    &:hover,
+    &:focus {
+      text-decoration: underline;
+    }
+  }
+}

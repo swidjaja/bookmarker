@@ -1,0 +1,24 @@
+$error-text-color: #ff0000;
+
+.error-go-to-input {
+  border: none;
+  background-color: transparent;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.error-box {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.form-ctas {
+  margin-top: 20px;
+}
+
+.error-box h2,
+.form-pair__input-error,
+.input-error {
+  color: $error-text-color;
+}

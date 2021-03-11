@@ -1,0 +1,29 @@
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+}
+
+.site-navigations {
+  display: flex;
+  height: 24px;
+  align-items: center;
+}
+
+.site {
+  padding-right: 10px;
+  border: 0;
+
+  &:not(:first-child) {
+    padding-left: 10px;
+  }
+
+  &:not(:last-child) {
+    border-right: 1px solid black;
+  }
+}
