@@ -9,6 +9,7 @@
     "react-scripts": "4.0.3"
   },
   "description": "The client part of the sample full-stack app",
+  "license": "MIT",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

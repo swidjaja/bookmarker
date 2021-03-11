@@ -2,6 +2,7 @@
   "name": "server-part",
   "version": "1.0.0",
   "description": "The server part of the sample full-stack app",
+  "license": "MIT",
   "main": "server.js",
   "dependencies": {
     "body-parser": "^1.19.0",
