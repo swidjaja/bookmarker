@@ -57,4 +57,3 @@ const Provider = (props) => {
 };
 
 export default Provider;
-
